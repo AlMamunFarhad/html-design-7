@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-2 p{
+font-size: 1.1rem;
+}
+.hero-2 .container{
+ background-color: #fff;
+ padding: 1.5rem 3rem;
+}
+
+.hero-section {
+    background-color: #009a97;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+/* section 3 */
+.section-3{
+    padding-top: 7rem;
+}
+.section-3 h1{
+    font-size: 2rem;
+}
+.section-3 p{
+    font-size: 1.1rem;
+}
+
+.section3-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3-btn a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  padding: 1rem 4rem;
+  background: #fcc819;
+  border-radius: 10px;
+  display: inline-block;
+
+}
+/* section 4 */
+.section-4{
+    /* padding: 7rem 0; */
+    padding-top: 7rem;
+}
+.section-4 h1{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.section-4 h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.section-4 p{
+    font-size: 1.1rem;
+}
+
+/* card */
+.card-section {
+    background-color: #009a97;
+    padding: 4rem 0;
+}
+.card-section .top{
+    color: #fff;
+    font-size: 4rem;
+
+}
+.card-title h3{
+    background-color: #009a97;
+    color: #fff;
+    margin: .5rem;
+    padding: .5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-body h1{
+   font-weight: bold;
+   font-size: 6rem;
+}
+.card-btn a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #009a97;
+    background-color: #e7e7e7;
+    padding: .4rem 2rem;
+    border-radius: 50px;
+}
+
+.card-title h2{
+    color: #f23d4c;
+}
+.col-md-4 .card2-title {
+    background-color: #f23d4c;
+}
+.card-body span small{
+    padding-top: 5rem;
+    font-weight: bold;
+}
+.card-btn .card2-btn{
+    background-color: #fcc819 !important;
+}
+
+/* FOOTER */
+footer a{
+    text-decoration: none;
+    color: #000;
+    padding: .5rem 1rem;
+}
+@media screen and (max-width: 1100px){
+  .card-btn a{
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 992px){
+   .card-body h1{
+    font-size: 4rem !important;
+   }
+   .card-body span small{
+    padding-top: 3rem !important;
+   }
+   .section3-btn a{
+    font-size: 1rem;
+   }
+}
+@media screen and (max-width: 768px) {
+    .hero-section h1{
+        font-size: 2rem !important;
+    }
+    .card-section .top{
+        font-size: 2rem !important;
+    }
+    .hero-2 .container{
+        padding: 1rem 1.5rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .hero-section h1{
+        font-size: 1.5rem !important;
+    }
+}
+@media screen and (max-width: 340px){
+    .section3-btn a{
+        font-size: 1rem !important;
+        padding: .5rem 2rem;
+    }
+}
